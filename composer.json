@@ -1,0 +1,22 @@
+{
+    "name": "kshopov/sms-test-package",
+    "autoload": {
+        "psr-4": {
+            "Kshopov\\SmsTestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Krasimir Shopov",
+            "email": "kshopov@labforty.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kshopov\\SmsTestPackage\\ASTServiceProvider"
+            ]
+        }
+    }
+}
